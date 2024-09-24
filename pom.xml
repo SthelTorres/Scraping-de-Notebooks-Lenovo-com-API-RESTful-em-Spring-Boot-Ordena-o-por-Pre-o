@@ -1,0 +1,34 @@
+<dependencies>
+    <!-- Spring Boot Web para API RESTful -->
+    <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-web</artifactId>
+    </dependency>
+
+    <!-- JSoup para parsing de HTML -->
+    <dependency>
+        <groupId>org.jsoup</groupId>
+        <artifactId>jsoup</artifactId>
+        <version>1.14.3</version>
+    </dependency>
+
+    <!-- OkHttp para realizar requisições HTTP -->
+    <dependency>
+        <groupId>com.squareup.okhttp3</groupId>
+        <artifactId>okhttp</artifactId>
+        <version>4.9.1</version>
+    </dependency>
+
+    <!-- Spring Boot DevTools (opcional para facilitar desenvolvimento) -->
+    <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-devtools</artifactId>
+        <scope>runtime</scope>
+    </dependency>
+
+    <!-- Dependência para JSON serialization -->
+    <dependency>
+        <groupId>com.fasterxml.jackson.core</groupId>
+        <artifactId>jackson-databind</artifactId>
+    </dependency>
+</dependencies>
